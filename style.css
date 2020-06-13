@@ -1,0 +1,37 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.ndio-header {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    background-color:#FFAA86;
+}
+
+.ndio-footer {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    left: 0px;
+    top: 91%;
+    background-color:#FFAA86;
+}
+
+.poll {
+    width: 50%;
+    margin: 0 auto;
+    background-color:#EEC4C4;;
+}
+.poll-create {
+    position: relative;
+    top: 12%;
+    left: 85%;
+    cursor:pointer;
+}
+
+.poll-option {
+    cursor: pointer;
+}
