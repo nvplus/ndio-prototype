@@ -34,7 +34,11 @@ body {
 
 
 .ndio-hf-button:hover {
-    background: black;
+    background: #e39878;
+}
+
+.selected {
+    background: #e39878;
 }
 
 .poll-create {
@@ -51,7 +55,7 @@ body {
 
 .poll {
     margin: 30px auto 0;
-    width: 70%;
+    width: 90%;
     height: 200px;
     background-color:#9E7C6D;
     box-shadow: 2px 2px 8px #888888;
