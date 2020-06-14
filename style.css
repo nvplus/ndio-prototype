@@ -52,6 +52,7 @@ body {
 .ndio-main {
     position: relative;
     top: 64px;
+    padding-bottom: 65px;
 }
 
 .poll {
@@ -71,27 +72,28 @@ body {
 }
 
 .poll-options {
-    margin-top: 10px;
+    margin-top: 40px;
     align-items: center;
     display: flex;
     justify-content: center;   
 }
 
 .poll-yes {
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 .poll-no {
-    margin-left: 20px;
+    margin-left: 25px;
 }
 .poll-footer {
     position: absolute;
     width: auto;
-    height: 30px;
+    height: 35px;
     top: 165px;
     left: 0px;
     right: 0px;
     bottom: 0px;
+    background: #FFAA86;;
 }
 .poll-open-comments {
     position: relative;
