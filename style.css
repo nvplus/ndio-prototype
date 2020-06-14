@@ -1,5 +1,5 @@
 body {
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: Raleway, Tahoma, Geneva, sans-serif;
 }
 
 /* Header stuff */
@@ -15,11 +15,18 @@ body {
 
 .ndio-title {
     display: inline-block;
+    color: white;
     position:relative;
     width: 50px;
     margin: 0;
-    left: 7%;
-    font-size: 25px;
+    left: 6%;
+    font-size: 30px;
+}
+
+.poll-create {
+    position: relative;
+    top: 15%;
+    left: 74%;
 }
 
 .ndio-footer-buttons {
@@ -41,12 +48,6 @@ body {
     background: #e39878;
 }
 
-.poll-create {
-    position: relative;
-    top: 15%;
-    left: 75%;
-}
-
 /* Main container stuff */
 .ndio-main {
     position: relative;
@@ -54,11 +55,55 @@ body {
 }
 
 .poll {
-    margin: 30px auto 0;
+    position: relative;
+    margin: 15px auto 15px;
     width: 90%;
     height: 200px;
-    background-color:#9E7C6D;
+    background-color:#EEC4C4;
     box-shadow: 2px 2px 8px #888888;
+}
+
+.poll-title {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.poll-options {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;   
+}
+
+.poll-yes {
+    margin-right: 20px;
+}
+
+.poll-no {
+    margin-left: 20px;
+}
+.poll-footer {
+    position: absolute;
+    width: auto;
+    height: 30px;
+    top: 165px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.poll-open-comments {
+    position: relative;
+    color: white;
+    left: 10px;
+    font-weight: 500;
+}
+
+.poll-comment-image {
+    position: relative;
+    top: 5px;
+    margin-right: 3px;
 }
 
 .clickable {
