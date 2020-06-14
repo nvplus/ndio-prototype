@@ -3,7 +3,26 @@ function clearcomments() {
 }
 $(document).ready(function () {
     /* POLLING */
-    $(".poll-create").click(function() {});
+    $(".poll-create").click(function() {
+        var poll = prompt("Enter your yes/no question: ");
+        var html = ` 
+        <div class="poll">
+        <div class="poll-title">${poll} (1 day left)</div>
+        <div class="poll-options">
+            <img class="poll-option poll-yes clickable" src="images/ndio-yes.png">
+            <div class="poll-divider"></div>
+            <img class="poll-option poll-no clickable" src="images/ndio-no.png">
+        </div>
+        <div class="poll-footer">
+            <div class="poll-open-comments clickable">
+                <img class="poll-comment-image" src="images/ndio-comment.png">
+                View comments
+            </div>
+        </div>
+        </div>`
+
+        $('.ndio-home-container').prepend(html);
+    });
 
     $(".poll-yes").click(function() {
         var y = Math.floor((Math.random() * 10) + 1) + 1;
