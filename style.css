@@ -2,6 +2,8 @@ body {
     font-family: Raleway, Tahoma, Geneva, sans-serif;
 }
 
+
+
 /* Header stuff */
 .ndio-header {
     position: fixed;
@@ -69,6 +71,7 @@ body {
     text-align: center;
     padding-top: 10px;
     font-weight: 600;
+    color: #402C24;
 }
 
 .poll-options {
@@ -78,10 +81,19 @@ body {
     justify-content: center;   
 }
 
+.poll-option:hover{
+    background: #d6a5a5;
+}
+
 .poll-yes {
     margin-right: 25px;
 }
 
+.poll-divider {
+    width: 1px;
+    height: 60px;
+    background: white;
+}
 .poll-no {
     margin-left: 25px;
 }
