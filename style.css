@@ -8,6 +8,11 @@ body {
     border: 5px solid #FFAA86;
     border-radius: 40px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    width:50%;
+    
     }
 
 /* this is a border for the title */
